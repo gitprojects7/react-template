@@ -1,0 +1,61 @@
+.login {
+    height: 330vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+    background: url("https://cdn.discordapp.com/attachments/1101619708102463639/1101620551128203375/ANIME-PICTURES.NET_-_699710-1889x3600-shingekinokyojin-productioni.g-mikasaackerman-sakimichan-single-tallimage.jpg");
+    background-size: cover;
+    overflow: hidden; 
+  
+  
+}
+  
+@media screen and (max-width: 2940px) {
+  .login {
+    background-position: center, center;
+  }
+}
+  .loginTitle {
+    font-size: 50px;
+  }
+  
+  .loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginForm > label {
+    margin: 10px 0;
+  }
+  .loginForm > input {
+    width: 200%;
+  }
+  
+  .loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .loginInput:focus {
+    outline: none;
+  }
+  
+  .loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: coral;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .log{
+    margin-top: 10%;
+    color: black;
+  }

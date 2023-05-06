@@ -1,0 +1,52 @@
+.wrapper{
+    padding: 10%;
+    
+    align-items: center;
+    justify-content: center;
+}
+.single{
+    display: flex;
+    justify-content: center;
+
+    color: #fff;
+}
+
+
+.singleimg{
+    color: #fff;
+    align-items:center;
+    width: 60%;
+    position: relative;
+    border-radius: 3%;
+    object-fit: cover;
+}
+
+.author{
+    margin: 1%;
+    font-size: 15px;
+}
+.singlestitle{
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.icon{
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    float: right;
+    margin-left: 10px;
+}
+
+.postinfo{
+    justify-content: space-between;
+    font-size: 14px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.descr{
+    font-size: 15px;
+}

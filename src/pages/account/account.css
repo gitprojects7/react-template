@@ -1,0 +1,89 @@
+.settings {
+    display: flex;
+    overflow-x: hidden;
+    margin-left: 20%;
+  }
+  
+  .settingsWrapper {
+    
+    align-items:center;
+    padding: 20px;
+    overflow-x: hidden;
+  }
+  
+  .settingsTitle {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  
+  .settingDelete {
+    color: red;
+    margin-left: 10%;
+    font-size: 20px;
+    cursor: pointer;
+    color: lightcoral;
+  }
+  
+  .settingsForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .settingsProfile {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .settingsProfile > img {
+
+    width: 50%;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  .Profilepic{
+    color: white;
+    margin-left: 1%;
+  }
+  
+
+  .settingsForm > label {
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+  }
+  
+
+  
+  .settingsForm > input {
+    color: gray;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 82%;
+  }
+  
+
+  .settingsSubmitButton {
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .settingsSubmitButton:hover {
+    background-color: rgb(1, 114, 114);
+  }

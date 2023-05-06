@@ -1,0 +1,145 @@
+/*where i comment in css properties are quite important, remove or edit to study how they work in tangent with html*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    position: sticky; 
+    width: 100%;
+    background: black;
+    padding: 2rem 6rem; /*pads outline of nav while content remains in place*/
+}
+
+
+
+.navbar-title h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: auto; /*either margin or width 100% without text stacked together */
+}
+
+/*in case i want to add image on left side of navbar*/
+.navbar-links_logo img {
+    width: 80%;
+}
+
+.navbar-links_container {
+    display: flex;
+}
+
+
+.navbar-button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*apply css affects to center content of nav*/
+/*also apply affects to center button on full screen and burger menu*/
+.navbar-links_container button,
+.navbar-menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500; /*bold italics*/
+    font-size: 18px;
+    background: black;
+    text-transform: capitalize;
+    margin: 0 10px; /*spaces text from each other*/
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none; /*no button border outline.... html/css dont remove*/
+}
+
+.burger-menu-button button, /*styling the button*/
+.navbar-button button,
+.navbar-menu_container {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #FF4820;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.navbar-links_container button:hover{
+    background: white;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+/*burger menu*/
+.navbar-menu {
+    display: none;
+  
+}
+
+
+
+.navbar-menu_container
+ {
+    display: flex;
+    overlay: x;
+    justify-content: flex-end;
+    flex-direction: column; 
+    text-align: end;
+    background: black;
+    padding: 2rem;
+    position: absolute; /*dont remove this*/
+    right: 0%;
+    top: 60%;
+    margin-top: 1rem;
+    min-width: 1000px;
+   
+}
+
+.navbar-menu p {
+    margin: 1rem 0;
+}
+
+.navbar-menu_sign {
+    display: none;
+}
+
+/*once width thresholds reach 550px, apply these affects*/
+@media screen and (max-width: 1050px) {
+    /*remove center content*/
+    .navbar-links_container {
+        display: none;
+    }
+/*burger menu*/
+    .navbar-menu {
+        display: flex;
+    }
+    /*orange button dissapears*/
+    .navbar-button button{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navbar {
+        padding: 2rem 4rem;
+    }
+    .navbar-button button{
+        display: none;
+    }
+    
+}
+
+/*smallest screen size*/
+@media screen and (max-width: 550px) {
+    .navbar {
+        padding: 2rem;
+    }
+
+    .navbar-button {
+        display: none;
+    }
+    .burger-menu_button {
+        display: block;
+    }
+}

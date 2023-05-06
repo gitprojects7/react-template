@@ -1,0 +1,53 @@
+.post{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 310px;
+
+    display: flex;
+    flex-direction: column;
+}/*pads left side of post component*/
+
+.post p{
+    left: 10%;
+    padding-bottom: 2%;
+    color: white;
+    line-height: 20px;
+}
+.postimage{
+    padding-top: 4%;
+    width: 100%;
+    cursor: pointer;
+}
+.info{
+
+    align-items: center;
+}
+
+.spantitle{
+    
+    font-size: 30px;
+    width: 100%;
+    color: #fff;
+}
+
+.date{
+    font-size: 15px;
+    color: white;
+    margin-top: 5%;
+}
+
+.readmore{
+    margin-left: 57%;
+    margin-top: 1%;
+    background: skyblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.readmore:hover{
+    background: #fff;
+    color: #000;
+}

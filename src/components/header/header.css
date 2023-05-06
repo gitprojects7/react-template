@@ -1,0 +1,65 @@
+
+.content{
+  padding-bottom: 2%;
+  display: flex;
+}
+
+.text{
+ align-items:center;
+ display: flex;
+ color: black;
+}
+
+.textone{
+    top: 60%;
+    right: 81%;
+    margin: auto;
+    position: absolute;
+    font-size: 2rem;
+    color: white;
+    background: rgb(0,0,0, .7);
+    padding: 10px 20px;
+    display: flex;
+}
+
+.title{
+    top: 17%;
+    left: 30%;
+    position: absolute;
+    font-size: 3rem;
+    display: flex;
+    color: lightgreen;
+    font-weight: 800;
+}
+
+.texttwo{
+    top: 80%;
+    display: flex;
+    position: absolute;
+    font-size: 2rem;
+    left: 82%;
+}
+.image2{
+    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .title{
+        
+        display: none;
+    }
+    .textone {
+        display: none;
+    }
+    .texttwo {
+      display: none;
+    }
+    .image2{
+        margin: 1%;       
+    }
+}

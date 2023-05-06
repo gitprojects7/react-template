@@ -1,0 +1,56 @@
+
+.sidebar{
+    flex: 3;
+    overflow-x: hidden;
+    margin-right: 5%;
+    margin-top: 3%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.spantitle{
+    padding-bottom: 5%;
+}
+.sidebarcontent{
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+    border-top: 1px solid; /*horizontal line*/
+    display: flex;
+}
+
+.sidebarcontent p {
+    padding-top: 5%;
+}
+
+.image{
+    display: flex;
+}
+
+.title2{
+    display: flex;
+    color: white;
+    margin: 10px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.socials {
+    margin-left: 15px;
+}
+
+
+@media screen and (max-width: 750px) {
+
+   
+.image{
+    width: 50%;
+}
+
+}

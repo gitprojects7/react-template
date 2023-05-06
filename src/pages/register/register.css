@@ -1,0 +1,64 @@
+.register {
+    height: 150vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+   
+    background: 
+      url("https://cdn.discordapp.com/attachments/1101570214371528715/1101570322270003240/44_4.jpg");
+    background-size: cover;
+  }
+
+@media screen and (max-width: 2940px) {
+  .register {
+    background-size: cover;
+    background-position: center, center;
+  }
+}
+  
+  .registerTitle {
+    font-size: 50px;
+    color: #fff;
+  }
+  
+  .registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registerForm > label {
+    margin: 10px 0;
+  }
+  
+  .registerInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    width: 200%;
+    border-radius: 10px;
+  }
+  
+
+  .registerlog{
+    margin-top: 10%;
+    color: white;
+  }
+  .registerLog{
+    margin-right: 10%;
+    color: green;
+  }
+  .registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
