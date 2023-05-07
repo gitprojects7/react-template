@@ -5,7 +5,7 @@ import './content.css';
 const Header = () => (
   <div className="header section__padding">
     <div className="header-content">
-      <h1 className="">Making stuff with reactjs</h1>
+      <h1 className="">Lorem ipsum dolor sit amet.</h1>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, tempora quos, obcaecati blanditiis voluptas
          id deserunt natus architecto deleniti vel voluptatem exercitationem nemo tenetur autem 
          sed totam enim explicabo tempore!
