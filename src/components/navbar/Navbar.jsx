@@ -22,7 +22,7 @@ const Navbar = () => {
 
 
       <div className="navbar-button"> {/* right */}
-        <button type="submit">Don't click me</button>
+        <button type="submit">Don't click</button>
       </div>
       {/* burger menu idk */}
       <div className="navbar-menu">
