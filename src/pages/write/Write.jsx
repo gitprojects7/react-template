@@ -4,7 +4,7 @@ import React, { Component }  from 'react';
 export default function Write() {
   return (
     <div className="write">
-      <img className="writeImg" src="https://cdn.discordapp.com/attachments/966970140623261716/966970240615473152/CaA1I11.jpg"
+      <img className="writeImg" src="https://th.bing.com/th/id/R.4fa78214eaf63e8d6afb632b862b73df?rik=s35lxJj%2fqH0QzQ&riu=http%3a%2f%2fwww.wallpapersin4k.org%2fwp-content%2fuploads%2f2017%2f04%2fFlowing-Water-Wallpaper-Free-Download-22.jpg&ehk=s4u3Kb3pFPbzQle4f62CuEqIkhhiKSi2Jy6ojVUG7no%3d&risl=&pid=ImgRaw&r=0"
       />
            <input id="fileInput" type="file" className="File"/>
       <form className="writeForm">

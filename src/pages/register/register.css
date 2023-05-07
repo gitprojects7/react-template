@@ -1,5 +1,5 @@
 .register {
-    height: 150vh;
+    height: 100vh;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
     justify-content: center;
    
     background: 
-      url("https://cdn.discordapp.com/attachments/1101570214371528715/1101570322270003240/44_4.jpg");
+      url("https://th.bing.com/th/id/R.fb154812c88454f4dbbda7126c5cea97?rik=GIzuy%2fhhTjZhpA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fyKY9evx.jpg&ehk=Ou25eBMD1c2NbvED3UdiTi5TS%2fX7hksw0OAoe%2fwh7vg%3d&risl=&pid=ImgRaw&r=0");
     background-size: cover;
   }
 

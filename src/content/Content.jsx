@@ -31,7 +31,7 @@ const Header = () => (
 
     <div className="header-image">
       {/* import */}
-      <img src="https://cdn.discordapp.com/attachments/978126964781096991/978127059354267769/a9cc7b5093c5428e15f75b8a680f7bda.jpg" alt="" class="image"/>
+      <img src="https://www.treehugger.com/thmb/qNlrLboy6-VRSEM5aU9Yh4Wp-Vc=/650x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2019__04__DanumValleyBorneoTallestTropicalTrees-083831fc57e84995a2b1a3838bed39ff.jpg" alt="" class="image"/>
     </div>
   </div>
 );

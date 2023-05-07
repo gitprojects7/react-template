@@ -13,7 +13,7 @@ export default function Account() {
           <label>Profile </label>
           <div className="settingsProfile">
             <img
-              src="https://cdn.discordapp.com/attachments/994891864345948170/994891940166385694/67.jpg"
+              src="https://cozyhomeslife.com/wp-content/uploads/2017/10/montana-log-cabin-1.jpg"
               alt=""
             />
             <input id="fileInput" className="Profilepic"type="file" />
